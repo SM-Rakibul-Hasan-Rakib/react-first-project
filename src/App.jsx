@@ -2,9 +2,7 @@ import "./App.css";
 import Counter from "./counter";
 import Team from "./team";
 import Users from "./users";
-Team
-
-
+import Friends from "./friends";
 
 function App() {
   function handleClick() {
@@ -22,6 +20,8 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      {/* <Friends></Friends> */}
+      <Friends></Friends>
       <Users></Users>
       <Team></Team>
       <Counter></Counter>
