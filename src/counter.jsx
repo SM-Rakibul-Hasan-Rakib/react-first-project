@@ -11,6 +11,7 @@ const handleReduce = () =>{
   const reduce = count - 1;
   setCount(reduce)
 }
+   
   return (
    <div style={{border: '2px solid yellow'}}>
     <h3 style={{fontSize: '5xl', bottom: '10px'}}>Counter : {count}</h3>

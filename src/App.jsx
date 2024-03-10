@@ -1,5 +1,7 @@
 import "./App.css";
 import Counter from "./counter";
+import Team from "./team";
+Team
 // counter
 
 
@@ -19,6 +21,7 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <Team></Team>
       <Counter></Counter>
 
         <div style={{marginTop: '20px', justifyContent:'flex-end'}}>
